@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/summary.css" />
+    <link rel="shortcut icon" href="../img/logo2.png" type="image/png" />
+    <title>Summary</title>
+  </head>
+  <body>
+    <header>
+      <a href="./index.html"><img src="./img/logo2.png" alt="logo" /></a>
+      <h1>
+        AMAZING<span><i>EVENTS</i></span
+        >.
+      </h1>
+      <nav class="navbar navbar-light  relative-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" style="margin: auto;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <div style="width: 2rem;"><img src="./Images/align-justify-solid.svg" style="width: 100%; height: 100%; display: flex; margin: auto; padding: 0 !important;"></img></div>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./epasados.html">Eventos Pasados</a>
+                </li>
+                <li class="nav-item">
+                      <a class="nav-link" href="./peventos.html">Eventos Futuros</a></li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="./eventos.html">Todos los Eventos</a></li>
+                      <li class="nav-item">
+                      <a class="nav-link" href="./registro.html">Registro</a></li>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="table-responsive">
+        <table class="table">
+          <tbody>
+              <tr id="categoriasTabla"> 
+                  <th scope="row"> Categoria: </th>
+              </tr>
+              <tr id="ingresos">     
+                  <th scope="row"> Ingresos: </th>
+              </tr>
+              <tr  id="asistenciass">
+                  <th scope="row"> Porcentaje de asistencia:</th>
+              </tr>
+          </tbody>    
+      </table>
+      </div>
+      <div class="container">
+        <table class="table">
+          <tbody>
+          <tr>
+            <th scope="row" id="mayorAudiencia">MAYOR PORCENTAJE DE AUDIENCIA: </th>
+          </tr>
+
+          <tr>
+            <th scope="row" id="menorAudiencia">MENOR PORCENTAJE DE AUDIENCIA: </th>
+          </tr>
+
+          <tr>
+            <th scope="row" id="mayorCapacidad">MAYOR CAPACIDAD DE AUDIENCIA: </th>
+          </tr>
+        </tbody>
+        </table>
+      </div>
+    </main>
+    <footer>
+      <p>Lucas Ezequiel Silva 2022</p>
+      <div class="redes-footer">
+        <a href="https://www.instagram.com/mrain00/"
+          ><img src="./redessociales/instagram.png" alt="insta"
+        /></a>
+        <a href="https://www.linkedin.com/in/lucasezequielsilva/"
+          ><img src="./redessociales/linkedin.png" alt="linke"
+        /></a>
+        <a href="https://github.com/Mrain00/"
+          ><img src="./redessociales/signo-de-github.png" alt="gith"
+        /></a>
+      </div>
+    </footer>
+    <script src="./js/summary2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
